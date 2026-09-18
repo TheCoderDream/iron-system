@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Strength & Hypertrophy Program</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">EB</div>
+        <div>
+          <h1>EMRE BASKAN - IRON SYSTEM</h1>
+          <p>Strength • Hypertrophy • Conditioning</p>
+        </div>
+      </div>
+
+      <div class="week-summary">
+        <span class="eyebrow">WEEKLY TARGET</span>
+        <div class="summary-row">
+          <div><strong>4</strong><span>Strength days</span></div>
+          <div><strong>2</strong><span>Cardio days</span></div>
+        </div>
+      </div>
+
+      <nav id="dayNav" class="day-nav"></nav>
+
+      <div class="side-note">
+        <span class="dot"></span>
+        <div>
+          <strong>Main focus</strong>
+          <p>Progress weighted dips and weighted pull-ups while keeping the whole body balanced.</p>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <span class="eyebrow">PROGRAM</span>
+          <h2 id="pageTitle">Upper A — Güç</h2>
+          <p id="pageSubtitle">Heavy compounds, low volume, high quality sets.</p>
+        </div>
+
+        <div class="topbar-actions">
+          <div class="progress-pill">
+            <span>Today</span>
+            <strong id="progressText">0 / 0</strong>
+          </div>
+          <button id="resetBtn" class="ghost-btn">Reset day</button>
+        </div>
+      </header>
+
+      <section class="hero">
+        <div class="hero-copy">
+          <span id="heroBadge" class="badge">UPPER BODY • STRENGTH</span>
+          <h3 id="heroTitle">Move heavy. Keep every rep clean.</h3>
+          <p id="heroText">Two warm-up sets, two hard working sets on the main lifts. Keep technique strict and track progression.</p>
+        </div>
+        <div class="hero-stat">
+          <span>Session progress</span>
+          <div class="ring" id="progressRing">
+            <div class="ring-inner">
+              <strong id="ringPercent">0%</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-grid">
+        <div class="workout-panel">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">TODAY'S SESSION</span>
+              <h3>Exercises</h3>
+            </div>
+            <span id="exerciseCount" class="muted"></span>
+          </div>
+          <div id="exerciseList" class="exercise-list"></div>
+        </div>
+
+        <aside class="info-panel">
+          <div class="info-card">
+            <span class="eyebrow">PROGRESSION</span>
+            <h4>Double progression</h4>
+            <p>Önce tekrar aralığının üst sınırına ulaş. Sonra ağırlığı küçük bir adımla artır.</p>
+            <div class="example-box">
+              <span>Example</span>
+              <strong>+50 kg × 5, 5</strong>
+              <div class="arrow">↓</div>
+              <strong>+52.5 kg</strong>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <span class="eyebrow">EFFORT</span>
+            <h4>RIR guide</h4>
+            <div class="rir-row"><span>Main compounds</span><strong>0–1 RIR</strong></div>
+            <div class="rir-row"><span>Isolation work</span><strong>0–1 RIR</strong></div>
+            <div class="rir-row"><span>Warm-up sets</span><strong>Easy</strong></div>
+          </div>
+
+          <div class="info-card cardio-tip">
+            <span class="eyebrow">CARDIO GOAL</span>
+            <h4>Build capacity, don't destroy recovery.</h4>
+            <p>Low–moderate intensity. Incline walk, bike or elliptical.</p>
+          </div>
+        </aside>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
