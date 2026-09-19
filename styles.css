@@ -609,3 +609,21 @@ button {
     grid-template-columns: 1fr;
   }
 }
+
+/* Multilingual controls */
+.language-box { display:grid; gap:7px; margin:0 0 16px; }
+.language-box label { color:var(--muted); font-size:10px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; }
+.language-box select { width:100%; color:var(--text); background:var(--panel-2); border:1px solid var(--line); border-radius:13px; padding:11px 12px; outline:none; }
+.language-box select:focus { border-color:rgba(200,255,61,.45); box-shadow:0 0 0 3px rgba(200,255,61,.08); }
+.exercise-secondary { min-height:15px; color:var(--muted); font-size:12px; }
+.metrics { display:flex; gap:8px; flex-wrap:wrap; justify-content:flex-end; }
+.metrics .metric { min-width:88px; }
+@media (max-width:1180px) {
+  .exercise-card { grid-template-columns:48px minmax(0,1fr) auto; }
+  .metrics { grid-column:2 / -1; justify-content:flex-start; }
+  .check-btn { grid-column:3; grid-row:1; }
+}
+@media (max-width:760px) {
+  .metrics { width:100%; }
+  .metrics .metric { flex:1; min-width:78px; text-align:left; }
+}
