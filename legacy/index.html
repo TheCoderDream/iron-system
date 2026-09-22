@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <title>IRON SYSTEM — Strength & Hypertrophy</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">EB</div>
+        <div><h1>IRON SYSTEM</h1><p id="brandSub"></p></div>
+      </div>
+
+      <div class="language-box">
+        <label id="languageLabel" for="languageSelect"></label>
+        <select id="languageSelect">
+          <option value="en">English</option>
+          <option value="es">Español</option>
+          <option value="ru">Русский</option>
+          <option value="tr">Türkçe</option>
+        </select>
+      </div>
+
+      <div class="week-summary">
+        <span id="weeklyTarget" class="eyebrow"></span>
+        <div class="summary-row">
+          <div><strong>4</strong><span id="liftingDays"></span></div>
+          <div><strong>2</strong><span id="cardioDays"></span></div>
+        </div>
+      </div>
+
+      <nav id="dayNav" class="day-nav"></nav>
+
+      <div class="side-note">
+        <span class="dot"></span>
+        <div><strong id="mainFocus"></strong><p id="mainFocusText"></p></div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <span id="programLabel" class="eyebrow"></span>
+          <h2 id="pageTitle"></h2>
+          <p id="pageSubtitle"></p>
+        </div>
+        <div class="topbar-actions">
+          <div class="progress-pill"><span id="todayLabel"></span><strong id="progressText">0 / 0</strong></div>
+          <button id="resetBtn" class="ghost-btn" type="button"></button>
+        </div>
+      </header>
+
+      <section class="hero">
+        <div class="hero-copy">
+          <span id="heroBadge" class="badge"></span>
+          <h3 id="heroTitle"></h3>
+          <p id="heroText"></p>
+        </div>
+        <div class="hero-stat">
+          <span id="sessionProgress"></span>
+          <div class="ring" id="progressRing"><div class="ring-inner"><strong id="ringPercent">0%</strong></div></div>
+        </div>
+      </section>
+
+      <section class="content-grid">
+        <div class="workout-panel">
+          <div class="section-heading">
+            <div><span id="todaysSession" class="eyebrow"></span><h3 id="exercisesLabel"></h3></div>
+            <span id="exerciseCount" class="muted"></span>
+          </div>
+          <div id="exerciseList" class="exercise-list"></div>
+        </div>
+
+        <aside class="info-panel">
+          <div class="info-card">
+            <span id="progressionLabel" class="eyebrow"></span>
+            <h4 id="doubleProgression"></h4>
+            <p id="progressionText"></p>
+            <div class="example-box"><span id="exampleLabel"></span><strong>+50 kg × 5, 5</strong><div class="arrow">↓</div><strong>+52.5 kg</strong></div>
+          </div>
+          <div class="info-card">
+            <span id="effortLabel" class="eyebrow"></span>
+            <h4 id="rirGuide"></h4>
+            <div class="rir-row"><span id="mainCompounds"></span><strong>0–1 RIR</strong></div>
+            <div class="rir-row"><span id="isolationWork"></span><strong>0–1 RIR</strong></div>
+            <div class="rir-row"><span id="warmupSets"></span><strong id="easyLabel"></strong></div>
+          </div>
+          <div class="info-card cardio-tip">
+            <span id="cardioGoal" class="eyebrow"></span>
+            <h4 id="cardioTitle"></h4>
+            <p id="cardioText"></p>
+          </div>
+        </aside>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
