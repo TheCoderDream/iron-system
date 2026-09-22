@@ -1,0 +1,1155 @@
+[
+  {
+    "id": "benchPress",
+    "name": {
+      "en": "Barbell Bench Press",
+      "es": "Press de banca con barra",
+      "ru": "Жим штанги лёжа",
+      "tr": "Barbell Bench Press"
+    },
+    "profile": "press",
+    "primary": [
+      "chest"
+    ],
+    "secondary": [
+      "triceps",
+      "frontDelts"
+    ],
+    "equipment": "barbell"
+  },
+  {
+    "id": "inclineBench",
+    "name": {
+      "en": "Incline Barbell Bench Press",
+      "es": "Press inclinado con barra",
+      "ru": "Жим штанги на наклонной скамье",
+      "tr": "Incline Barbell Bench Press"
+    },
+    "profile": "press",
+    "primary": [
+      "chest"
+    ],
+    "secondary": [
+      "triceps",
+      "frontDelts"
+    ],
+    "equipment": "barbell"
+  },
+  {
+    "id": "dumbbellBench",
+    "name": {
+      "en": "Dumbbell Bench Press",
+      "es": "Press de banca con mancuernas",
+      "ru": "Жим гантелей лёжа",
+      "tr": "Dambıl Bench Press"
+    },
+    "profile": "press",
+    "primary": [
+      "chest"
+    ],
+    "secondary": [
+      "triceps",
+      "frontDelts"
+    ],
+    "equipment": "dumbbell"
+  },
+  {
+    "id": "inclineDumbbell",
+    "name": {
+      "en": "Incline Dumbbell Bench Press",
+      "es": "Press inclinado con mancuernas",
+      "ru": "Жим гантелей на наклонной скамье",
+      "tr": "Incline Dambıl Bench Press"
+    },
+    "profile": "press",
+    "primary": [
+      "chest"
+    ],
+    "secondary": [
+      "triceps",
+      "frontDelts"
+    ],
+    "equipment": "dumbbell"
+  },
+  {
+    "id": "declineBench",
+    "name": {
+      "en": "Decline Barbell Bench Press",
+      "es": "Press declinado con barra",
+      "ru": "Жим штанги на скамье с уклоном вниз",
+      "tr": "Decline Bench Press"
+    },
+    "profile": "press",
+    "primary": [
+      "chest"
+    ],
+    "secondary": [
+      "triceps",
+      "frontDelts"
+    ],
+    "equipment": "barbell"
+  },
+  {
+    "id": "smithBench",
+    "name": {
+      "en": "Smith Machine Bench Press",
+      "es": "Press de banca en Smith",
+      "ru": "Жим лёжа в Смите",
+      "tr": "Smith Machine Bench Press"
+    },
+    "profile": "press",
+    "primary": [
+      "chest"
+    ],
+    "secondary": [
+      "triceps",
+      "frontDelts"
+    ],
+    "equipment": "smith"
+  },
+  {
+    "id": "chestPress",
+    "name": {
+      "en": "Machine Chest Press",
+      "es": "Press de pecho en máquina",
+      "ru": "Жим от груди в тренажёре",
+      "tr": "Makine Göğüs Press"
+    },
+    "profile": "press",
+    "primary": [
+      "chest"
+    ],
+    "secondary": [
+      "triceps",
+      "frontDelts"
+    ],
+    "equipment": "machine"
+  },
+  {
+    "id": "cableFly",
+    "name": {
+      "en": "Cable Chest Fly",
+      "es": "Aperturas en polea",
+      "ru": "Сведение рук в кроссовере",
+      "tr": "Kablo Göğüs Fly"
+    },
+    "profile": "fly",
+    "primary": [
+      "chest"
+    ],
+    "secondary": [
+      "frontDelts"
+    ],
+    "equipment": "cable"
+  },
+  {
+    "id": "dumbbellFly",
+    "name": {
+      "en": "Dumbbell Chest Fly",
+      "es": "Aperturas con mancuernas",
+      "ru": "Разведение гантелей лёжа",
+      "tr": "Dambıl Göğüs Fly"
+    },
+    "profile": "fly",
+    "primary": [
+      "chest"
+    ],
+    "secondary": [
+      "frontDelts"
+    ],
+    "equipment": "dumbbell"
+  },
+  {
+    "id": "pushup",
+    "name": {
+      "en": "Push-Up",
+      "es": "Flexiones",
+      "ru": "Отжимания",
+      "tr": "Şınav"
+    },
+    "profile": "pushup",
+    "primary": [
+      "chest"
+    ],
+    "secondary": [
+      "triceps",
+      "frontDelts",
+      "abs"
+    ],
+    "equipment": "standard"
+  },
+  {
+    "id": "inclinePushup",
+    "name": {
+      "en": "Incline Push-Up",
+      "es": "Flexiones inclinadas",
+      "ru": "Отжимания от опоры",
+      "tr": "Eğimli Şınav"
+    },
+    "profile": "pushup",
+    "primary": [
+      "chest"
+    ],
+    "secondary": [
+      "triceps",
+      "frontDelts",
+      "abs"
+    ],
+    "equipment": "standard"
+  },
+  {
+    "id": "latPulldown",
+    "name": {
+      "en": "Lat Pulldown",
+      "es": "Jalón al pecho",
+      "ru": "Тяга верхнего блока",
+      "tr": "Lat Pulldown"
+    },
+    "profile": "pulldown",
+    "primary": [
+      "lats"
+    ],
+    "secondary": [
+      "biceps",
+      "upperBack",
+      "forearms"
+    ],
+    "equipment": "cable"
+  },
+  {
+    "id": "neutralPulldown",
+    "name": {
+      "en": "Neutral-Grip Lat Pulldown",
+      "es": "Jalón con agarre neutro",
+      "ru": "Тяга верхнего блока нейтральным хватом",
+      "tr": "Nötr Tutuş Lat Pulldown"
+    },
+    "profile": "pulldown",
+    "primary": [
+      "lats"
+    ],
+    "secondary": [
+      "biceps",
+      "upperBack",
+      "forearms"
+    ],
+    "equipment": "cable"
+  },
+  {
+    "id": "chinup",
+    "name": {
+      "en": "Chin-Up",
+      "es": "Dominadas supinas",
+      "ru": "Подтягивания обратным хватом",
+      "tr": "Chin-Up (Alttan Tutuş Barfiks)"
+    },
+    "profile": "pullup",
+    "primary": [
+      "lats",
+      "biceps"
+    ],
+    "secondary": [
+      "upperBack",
+      "forearms"
+    ],
+    "equipment": "standard"
+  },
+  {
+    "id": "barbellRow",
+    "name": {
+      "en": "Bent-Over Barbell Row",
+      "es": "Remo inclinado con barra",
+      "ru": "Тяга штанги в наклоне",
+      "tr": "Barbell Bent-Over Row"
+    },
+    "profile": "row",
+    "primary": [
+      "lats",
+      "upperBack"
+    ],
+    "secondary": [
+      "biceps",
+      "rearDelts",
+      "lowerBack"
+    ],
+    "equipment": "barbell"
+  },
+  {
+    "id": "dumbbellRow",
+    "name": {
+      "en": "One-Arm Dumbbell Row",
+      "es": "Remo con mancuerna a una mano",
+      "ru": "Тяга гантели одной рукой",
+      "tr": "Tek Kol Dambıl Row"
+    },
+    "profile": "row",
+    "primary": [
+      "lats",
+      "upperBack"
+    ],
+    "secondary": [
+      "biceps",
+      "rearDelts"
+    ],
+    "equipment": "dumbbell"
+  },
+  {
+    "id": "tbarRow",
+    "name": {
+      "en": "T-Bar Row",
+      "es": "Remo en T",
+      "ru": "Тяга Т-грифа",
+      "tr": "T-Bar Row"
+    },
+    "profile": "row",
+    "primary": [
+      "lats",
+      "upperBack"
+    ],
+    "secondary": [
+      "biceps",
+      "rearDelts",
+      "lowerBack"
+    ],
+    "equipment": "barbell"
+  },
+  {
+    "id": "machineRow",
+    "name": {
+      "en": "Chest-Supported Machine Row",
+      "es": "Remo en máquina con apoyo",
+      "ru": "Тяга в тренажёре с опорой грудью",
+      "tr": "Göğüs Destekli Makine Row"
+    },
+    "profile": "row",
+    "primary": [
+      "lats",
+      "upperBack"
+    ],
+    "secondary": [
+      "biceps",
+      "rearDelts"
+    ],
+    "equipment": "machine"
+  },
+  {
+    "id": "straightArmPulldown",
+    "name": {
+      "en": "Straight-Arm Cable Pulldown",
+      "es": "Jalón con brazos rectos",
+      "ru": "Тяга блока прямыми руками",
+      "tr": "Düz Kol Kablo Pulldown"
+    },
+    "profile": "pullover",
+    "primary": [
+      "lats"
+    ],
+    "secondary": [
+      "triceps",
+      "abs"
+    ],
+    "equipment": "cable"
+  },
+  {
+    "id": "dumbbellPullover",
+    "name": {
+      "en": "Dumbbell Pullover",
+      "es": "Pullover con mancuerna",
+      "ru": "Пуловер с гантелью",
+      "tr": "Dambıl Pullover"
+    },
+    "profile": "pullover",
+    "primary": [
+      "lats",
+      "chest"
+    ],
+    "secondary": [
+      "triceps"
+    ],
+    "equipment": "dumbbell"
+  },
+  {
+    "id": "facePull",
+    "name": {
+      "en": "Cable Face Pull",
+      "es": "Face pull en polea",
+      "ru": "Тяга каната к лицу",
+      "tr": "Kablo Face Pull"
+    },
+    "profile": "facepull",
+    "primary": [
+      "rearDelts",
+      "upperBack"
+    ],
+    "secondary": [
+      "biceps"
+    ],
+    "equipment": "cable"
+  },
+  {
+    "id": "dumbbellShoulder",
+    "name": {
+      "en": "Seated Dumbbell Shoulder Press",
+      "es": "Press de hombros sentado",
+      "ru": "Жим гантелей сидя",
+      "tr": "Oturarak Dambıl Omuz Press"
+    },
+    "profile": "shoulder",
+    "primary": [
+      "frontDelts"
+    ],
+    "secondary": [
+      "sideDelts",
+      "triceps"
+    ],
+    "equipment": "dumbbell"
+  },
+  {
+    "id": "machineShoulder",
+    "name": {
+      "en": "Machine Shoulder Press",
+      "es": "Press de hombros en máquina",
+      "ru": "Жим плечами в тренажёре",
+      "tr": "Makine Omuz Press"
+    },
+    "profile": "shoulder",
+    "primary": [
+      "frontDelts"
+    ],
+    "secondary": [
+      "sideDelts",
+      "triceps"
+    ],
+    "equipment": "machine"
+  },
+  {
+    "id": "arnoldPress",
+    "name": {
+      "en": "Arnold Press",
+      "es": "Press Arnold",
+      "ru": "Жим Арнольда",
+      "tr": "Arnold Press"
+    },
+    "profile": "shoulder",
+    "primary": [
+      "frontDelts"
+    ],
+    "secondary": [
+      "sideDelts",
+      "triceps"
+    ],
+    "equipment": "dumbbell"
+  },
+  {
+    "id": "cableLateral",
+    "name": {
+      "en": "Cable Lateral Raise",
+      "es": "Elevación lateral en polea",
+      "ru": "Махи в стороны на блоке",
+      "tr": "Kablo Yana Açış"
+    },
+    "profile": "lateral",
+    "primary": [
+      "sideDelts"
+    ],
+    "secondary": [
+      "upperBack"
+    ],
+    "equipment": "cable"
+  },
+  {
+    "id": "machineLateral",
+    "name": {
+      "en": "Machine Lateral Raise",
+      "es": "Elevación lateral en máquina",
+      "ru": "Отведение плеч в тренажёре",
+      "tr": "Makine Yana Açış"
+    },
+    "profile": "lateral",
+    "primary": [
+      "sideDelts"
+    ],
+    "secondary": [
+      "upperBack"
+    ],
+    "equipment": "machine"
+  },
+  {
+    "id": "frontRaise",
+    "name": {
+      "en": "Dumbbell Front Raise",
+      "es": "Elevación frontal con mancuernas",
+      "ru": "Подъём гантелей перед собой",
+      "tr": "Dambıl Öne Açış"
+    },
+    "profile": "frontRaise",
+    "primary": [
+      "frontDelts"
+    ],
+    "secondary": [
+      "chest"
+    ],
+    "equipment": "dumbbell"
+  },
+  {
+    "id": "shrug",
+    "name": {
+      "en": "Dumbbell Shrug",
+      "es": "Encogimientos con mancuernas",
+      "ru": "Шраги с гантелями",
+      "tr": "Dambıl Shrug"
+    },
+    "profile": "shrug",
+    "primary": [
+      "upperBack"
+    ],
+    "secondary": [
+      "forearms"
+    ],
+    "equipment": "dumbbell"
+  },
+  {
+    "id": "hammerCurl",
+    "name": {
+      "en": "Hammer Curl",
+      "es": "Curl martillo",
+      "ru": "Молотковые сгибания",
+      "tr": "Hammer Curl"
+    },
+    "profile": "curl",
+    "primary": [
+      "biceps",
+      "forearms"
+    ],
+    "secondary": [],
+    "equipment": "dumbbell"
+  },
+  {
+    "id": "inclineCurl",
+    "name": {
+      "en": "Incline Dumbbell Curl",
+      "es": "Curl inclinado con mancuernas",
+      "ru": "Сгибания гантелей на наклонной скамье",
+      "tr": "Incline Dambıl Curl"
+    },
+    "profile": "curl",
+    "primary": [
+      "biceps"
+    ],
+    "secondary": [
+      "forearms"
+    ],
+    "equipment": "dumbbell"
+  },
+  {
+    "id": "preacherCurl",
+    "name": {
+      "en": "EZ-Bar Preacher Curl",
+      "es": "Curl predicador con barra EZ",
+      "ru": "Сгибания с EZ-грифом на скамье Скотта",
+      "tr": "EZ Bar Preacher Curl"
+    },
+    "profile": "curl",
+    "primary": [
+      "biceps"
+    ],
+    "secondary": [
+      "forearms"
+    ],
+    "equipment": "barbell"
+  },
+  {
+    "id": "cableCurl",
+    "name": {
+      "en": "Cable Biceps Curl",
+      "es": "Curl de bíceps en polea",
+      "ru": "Сгибание рук на блоке",
+      "tr": "Kablo Biceps Curl"
+    },
+    "profile": "curl",
+    "primary": [
+      "biceps"
+    ],
+    "secondary": [
+      "forearms"
+    ],
+    "equipment": "cable"
+  },
+  {
+    "id": "concentrationCurl",
+    "name": {
+      "en": "Concentration Curl",
+      "es": "Curl concentrado",
+      "ru": "Концентрированное сгибание",
+      "tr": "Konsantrasyon Curl"
+    },
+    "profile": "curl",
+    "primary": [
+      "biceps"
+    ],
+    "secondary": [
+      "forearms"
+    ],
+    "equipment": "dumbbell"
+  },
+  {
+    "id": "reverseCurl",
+    "name": {
+      "en": "Reverse-Grip Barbell Curl",
+      "es": "Curl inverso con barra",
+      "ru": "Сгибания обратным хватом",
+      "tr": "Ters Tutuş Barbell Curl"
+    },
+    "profile": "curl",
+    "primary": [
+      "forearms"
+    ],
+    "secondary": [
+      "biceps"
+    ],
+    "equipment": "barbell"
+  },
+  {
+    "id": "ropePushdown",
+    "name": {
+      "en": "Rope Triceps Pushdown",
+      "es": "Extensión de tríceps con cuerda",
+      "ru": "Разгибание рук с канатом",
+      "tr": "İp Triceps Pushdown"
+    },
+    "profile": "pushdown",
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [],
+    "equipment": "cable"
+  },
+  {
+    "id": "barPushdown",
+    "name": {
+      "en": "Straight-Bar Triceps Pushdown",
+      "es": "Extensión de tríceps con barra",
+      "ru": "Разгибание рук с прямой рукоятью",
+      "tr": "Düz Bar Triceps Pushdown"
+    },
+    "profile": "pushdown",
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [],
+    "equipment": "cable"
+  },
+  {
+    "id": "overheadCable",
+    "name": {
+      "en": "Overhead Cable Triceps Extension",
+      "es": "Extensión de tríceps sobre cabeza en polea",
+      "ru": "Разгибание рук над головой на блоке",
+      "tr": "Baş Üstü Kablo Triceps Extension"
+    },
+    "profile": "overheadTriceps",
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [],
+    "equipment": "cable"
+  },
+  {
+    "id": "overheadDumbbell",
+    "name": {
+      "en": "Overhead Dumbbell Triceps Extension",
+      "es": "Extensión de tríceps sobre cabeza con mancuerna",
+      "ru": "Разгибание рук с гантелью над головой",
+      "tr": "Baş Üstü Dambıl Triceps Extension"
+    },
+    "profile": "overheadTriceps",
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [],
+    "equipment": "dumbbell"
+  },
+  {
+    "id": "closeGripBench",
+    "name": {
+      "en": "Close-Grip Bench Press",
+      "es": "Press de banca con agarre cerrado",
+      "ru": "Жим лёжа узким хватом",
+      "tr": "Dar Tutuş Bench Press"
+    },
+    "profile": "press",
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [
+      "chest",
+      "frontDelts"
+    ],
+    "equipment": "barbell"
+  },
+  {
+    "id": "tricepsKickback",
+    "name": {
+      "en": "Dumbbell Triceps Kickback",
+      "es": "Patada de tríceps",
+      "ru": "Разгибание руки с гантелью в наклоне",
+      "tr": "Dambıl Triceps Kickback"
+    },
+    "profile": "kickback",
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [],
+    "equipment": "dumbbell"
+  },
+  {
+    "id": "rdl",
+    "name": {
+      "en": "Barbell Romanian Deadlift",
+      "es": "Peso muerto rumano con barra",
+      "ru": "Румынская тяга со штангой",
+      "tr": "Barbell Romanian Deadlift (RDL)"
+    },
+    "profile": "hinge",
+    "primary": [
+      "hamstrings",
+      "glutes"
+    ],
+    "secondary": [
+      "lowerBack",
+      "forearms"
+    ],
+    "equipment": "barbell"
+  },
+  {
+    "id": "dumbbellRdl",
+    "name": {
+      "en": "Dumbbell Romanian Deadlift",
+      "es": "Peso muerto rumano con mancuernas",
+      "ru": "Румынская тяга с гантелями",
+      "tr": "Dambıl Romanian Deadlift"
+    },
+    "profile": "hinge",
+    "primary": [
+      "hamstrings",
+      "glutes"
+    ],
+    "secondary": [
+      "lowerBack",
+      "forearms"
+    ],
+    "equipment": "dumbbell"
+  },
+  {
+    "id": "deadlift",
+    "name": {
+      "en": "Conventional Deadlift",
+      "es": "Peso muerto convencional",
+      "ru": "Классическая становая тяга",
+      "tr": "Klasik Deadlift"
+    },
+    "profile": "deadlift",
+    "primary": [
+      "glutes",
+      "hamstrings"
+    ],
+    "secondary": [
+      "quads",
+      "lowerBack",
+      "upperBack",
+      "forearms"
+    ],
+    "equipment": "barbell"
+  },
+  {
+    "id": "sumoDeadlift",
+    "name": {
+      "en": "Sumo Deadlift",
+      "es": "Peso muerto sumo",
+      "ru": "Становая тяга сумо",
+      "tr": "Sumo Deadlift"
+    },
+    "profile": "deadlift",
+    "primary": [
+      "glutes",
+      "quads",
+      "adductors"
+    ],
+    "secondary": [
+      "hamstrings",
+      "lowerBack",
+      "forearms"
+    ],
+    "equipment": "barbell"
+  },
+  {
+    "id": "trapbarDeadlift",
+    "name": {
+      "en": "Trap-Bar Deadlift",
+      "es": "Peso muerto con barra hexagonal",
+      "ru": "Тяга с трэп-грифом",
+      "tr": "Trap Bar Deadlift"
+    },
+    "profile": "deadlift",
+    "primary": [
+      "quads",
+      "glutes"
+    ],
+    "secondary": [
+      "hamstrings",
+      "lowerBack",
+      "forearms"
+    ],
+    "equipment": "barbell"
+  },
+  {
+    "id": "frontSquat",
+    "name": {
+      "en": "Front Squat",
+      "es": "Sentadilla frontal",
+      "ru": "Фронтальный присед",
+      "tr": "Front Squat"
+    },
+    "profile": "squat",
+    "primary": [
+      "quads",
+      "glutes"
+    ],
+    "secondary": [
+      "abs",
+      "upperBack"
+    ],
+    "equipment": "barbell"
+  },
+  {
+    "id": "gobletSquat",
+    "name": {
+      "en": "Goblet Squat",
+      "es": "Sentadilla goblet",
+      "ru": "Гоблет-присед",
+      "tr": "Goblet Squat"
+    },
+    "profile": "squat",
+    "primary": [
+      "quads",
+      "glutes"
+    ],
+    "secondary": [
+      "abs"
+    ],
+    "equipment": "dumbbell"
+  },
+  {
+    "id": "hackSquat",
+    "name": {
+      "en": "Hack Squat Machine",
+      "es": "Sentadilla hack",
+      "ru": "Гакк-присед",
+      "tr": "Hack Squat Makinesi"
+    },
+    "profile": "squat",
+    "primary": [
+      "quads",
+      "glutes"
+    ],
+    "secondary": [
+      "adductors"
+    ],
+    "equipment": "machine"
+  },
+  {
+    "id": "smithSquat",
+    "name": {
+      "en": "Smith Machine Squat",
+      "es": "Sentadilla en Smith",
+      "ru": "Присед в Смите",
+      "tr": "Smith Machine Squat"
+    },
+    "profile": "squat",
+    "primary": [
+      "quads",
+      "glutes"
+    ],
+    "secondary": [
+      "adductors"
+    ],
+    "equipment": "smith"
+  },
+  {
+    "id": "walkingLunge",
+    "name": {
+      "en": "Dumbbell Walking Lunge",
+      "es": "Zancadas caminando",
+      "ru": "Выпады в ходьбе",
+      "tr": "Dambıl Yürüyüş Lunge"
+    },
+    "profile": "lunge",
+    "primary": [
+      "quads",
+      "glutes"
+    ],
+    "secondary": [
+      "adductors"
+    ],
+    "equipment": "dumbbell"
+  },
+  {
+    "id": "reverseLunge",
+    "name": {
+      "en": "Dumbbell Reverse Lunge",
+      "es": "Zancadas hacia atrás",
+      "ru": "Обратные выпады",
+      "tr": "Dambıl Geri Lunge"
+    },
+    "profile": "lunge",
+    "primary": [
+      "quads",
+      "glutes"
+    ],
+    "secondary": [
+      "adductors"
+    ],
+    "equipment": "dumbbell"
+  },
+  {
+    "id": "stepUp",
+    "name": {
+      "en": "Dumbbell Step-Up",
+      "es": "Subida al banco con mancuernas",
+      "ru": "Зашагивания с гантелями",
+      "tr": "Dambıl Step-Up"
+    },
+    "profile": "stepup",
+    "primary": [
+      "quads",
+      "glutes"
+    ],
+    "secondary": [
+      "hamstrings"
+    ],
+    "equipment": "dumbbell"
+  },
+  {
+    "id": "hipThrust",
+    "name": {
+      "en": "Barbell Hip Thrust",
+      "es": "Hip thrust con barra",
+      "ru": "Ягодичный мост со штангой на скамье",
+      "tr": "Barbell Hip Thrust"
+    },
+    "profile": "bridge",
+    "primary": [
+      "glutes"
+    ],
+    "secondary": [
+      "hamstrings"
+    ],
+    "equipment": "barbell"
+  },
+  {
+    "id": "gluteBridge",
+    "name": {
+      "en": "Floor Glute Bridge",
+      "es": "Puente de glúteos en suelo",
+      "ru": "Ягодичный мост на полу",
+      "tr": "Yerde Glute Bridge"
+    },
+    "profile": "bridge",
+    "primary": [
+      "glutes"
+    ],
+    "secondary": [
+      "hamstrings"
+    ],
+    "equipment": "standard"
+  },
+  {
+    "id": "seatedLegCurl",
+    "name": {
+      "en": "Seated Leg Curl",
+      "es": "Curl femoral sentado",
+      "ru": "Сгибание ног сидя",
+      "tr": "Oturarak Leg Curl"
+    },
+    "profile": "ham",
+    "primary": [
+      "hamstrings"
+    ],
+    "secondary": [],
+    "equipment": "machine"
+  },
+  {
+    "id": "cableKickback",
+    "name": {
+      "en": "Cable Glute Kickback",
+      "es": "Patada de glúteos en polea",
+      "ru": "Отведение ноги назад на блоке",
+      "tr": "Kablo Kalça Kickback"
+    },
+    "profile": "gluteKick",
+    "primary": [
+      "glutes"
+    ],
+    "secondary": [
+      "hamstrings"
+    ],
+    "equipment": "cable"
+  },
+  {
+    "id": "hipAbduction",
+    "name": {
+      "en": "Hip Abduction Machine",
+      "es": "Abducción de cadera en máquina",
+      "ru": "Разведение ног в тренажёре",
+      "tr": "Kalça Dışa Açış Makinesi"
+    },
+    "profile": "abduction",
+    "primary": [
+      "glutes"
+    ],
+    "secondary": [],
+    "equipment": "machine"
+  },
+  {
+    "id": "hipAdduction",
+    "name": {
+      "en": "Hip Adduction Machine",
+      "es": "Aducción de cadera en máquina",
+      "ru": "Сведение ног в тренажёре",
+      "tr": "Kalça İçe Kapatış Makinesi"
+    },
+    "profile": "adduction",
+    "primary": [
+      "adductors"
+    ],
+    "secondary": [],
+    "equipment": "machine"
+  },
+  {
+    "id": "standingCalf",
+    "name": {
+      "en": "Standing Calf Raise",
+      "es": "Elevación de gemelos de pie",
+      "ru": "Подъём на носки стоя",
+      "tr": "Ayakta Calf Raise"
+    },
+    "profile": "calf",
+    "primary": [
+      "calves"
+    ],
+    "secondary": [],
+    "equipment": "machine"
+  },
+  {
+    "id": "seatedCalf",
+    "name": {
+      "en": "Seated Calf Raise",
+      "es": "Elevación de gemelos sentado",
+      "ru": "Подъём на носки сидя",
+      "tr": "Oturarak Calf Raise"
+    },
+    "profile": "calf",
+    "primary": [
+      "calves"
+    ],
+    "secondary": [],
+    "equipment": "machine"
+  },
+  {
+    "id": "legpressCalf",
+    "name": {
+      "en": "Leg Press Calf Raise",
+      "es": "Gemelos en prensa",
+      "ru": "Подъём на носки в жиме ногами",
+      "tr": "Leg Press Calf Raise"
+    },
+    "profile": "calf",
+    "primary": [
+      "calves"
+    ],
+    "secondary": [],
+    "equipment": "machine"
+  },
+  {
+    "id": "cableCrunch",
+    "name": {
+      "en": "Kneeling Cable Crunch",
+      "es": "Crunch en polea de rodillas",
+      "ru": "Скручивание на верхнем блоке",
+      "tr": "Diz Üstü Kablo Crunch"
+    },
+    "profile": "crunch",
+    "primary": [
+      "abs"
+    ],
+    "secondary": [],
+    "equipment": "cable"
+  },
+  {
+    "id": "reverseCrunch",
+    "name": {
+      "en": "Reverse Crunch",
+      "es": "Crunch inverso",
+      "ru": "Обратное скручивание",
+      "tr": "Reverse Crunch"
+    },
+    "profile": "reverseCrunch",
+    "primary": [
+      "abs"
+    ],
+    "secondary": [],
+    "equipment": "standard"
+  },
+  {
+    "id": "hangingKneeRaise",
+    "name": {
+      "en": "Hanging Knee Raise",
+      "es": "Elevación de rodillas colgado",
+      "ru": "Подъём коленей в висе",
+      "tr": "Asılı Diz Çekiş"
+    },
+    "profile": "kneeRaise",
+    "primary": [
+      "abs"
+    ],
+    "secondary": [
+      "forearms"
+    ],
+    "equipment": "standard"
+  },
+  {
+    "id": "abWheel",
+    "name": {
+      "en": "Kneeling Ab Wheel Rollout",
+      "es": "Rueda abdominal de rodillas",
+      "ru": "Ролик для пресса с колен",
+      "tr": "Diz Üstü Ab Wheel"
+    },
+    "profile": "rollout",
+    "primary": [
+      "abs"
+    ],
+    "secondary": [
+      "lats",
+      "frontDelts"
+    ],
+    "equipment": "standard"
+  },
+  {
+    "id": "woodchop",
+    "name": {
+      "en": "Cable Woodchop",
+      "es": "Leñador en polea",
+      "ru": "Диагональная тяга блока",
+      "tr": "Kablo Woodchop"
+    },
+    "profile": "rotation",
+    "primary": [
+      "abs"
+    ],
+    "secondary": [
+      "frontDelts"
+    ],
+    "equipment": "cable"
+  }
+]
